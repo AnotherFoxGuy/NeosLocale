@@ -112,7 +112,7 @@
         "World.Connection.Connected" : "Verbonden",
         "World.Connection.SyncingInitialState" : "Initiële wereldstatus synchroniseren",
 
-
+        "World.Connection.LNL.DirectIP" : "LNL Direct IP",
 
 
 
@@ -444,6 +444,9 @@
         "Undo.InsertParent" : "Parent invoegen voor {name}",
         "Undo.Wiggler" : "Kwaadaardige Dingen",
 
+        "Undo.ExtractMaterialsFromHierarchy" : "Materialen uit hiërarchie halen",
+        "Undo.BatchConvertMaterials" : "Batchconversie materialen",
+
         "Tooltips.Dev.CreateNew" : "Maak nieuw...",
         "Tooltips.Dev.Selection" : "Selectie: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Ontwikkelaarsmodus: Uit",
@@ -489,6 +492,7 @@
         "Tooltip.Material.CreateCopy" : "Maak een kopie",
         "Tooltip.Material.Edit" : "Materiaal bewerken",
         "Tooltip.Material.Convert" : "Omzetten naar...",
+        "Tooltip.Material.ConvertAll" : "Converteer alles naar...",
         "Tooltip.Material.CreateNew" : "Maak nieuw",
 
         "Tooltip.Mesh.Edit" : "Bewerk Mesh",
@@ -585,6 +589,8 @@
         "Importer.Folder.Individual.Description" : "Creëert een apart importdialoogvenster voor elk ondersteund bestand in de map",
         "Importer.Folder.Batch" : "Batch importeren",
         "Importer.Folder.Batch.Description" : "Creëert een enkele importer voor elk type, met dezelfde instellingen voor elk bestand",
+        "Importer.Folder.Minecraft" : "Minecraft Wereld",
+        "Importer.Folder.Minecraft.Description" : "Importeert een Minecraft wereld als Mineways is geïnstalleerd.",
 
         "Importer.Image.Title" : "Afbeelding Importer",
         "Importer.Image.Prompt" : "Wat importeert u?",
@@ -659,6 +665,9 @@
         "Importer.Model.Advanced.RandomColors" : "Genereer Willekeurige Kleuren",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Spawn materiaal Orbs",
         "Importer.Model.Advanced.ImagesByName" : "Importeer Afbeeldingen Op Naam",
+        "Importer.Model.Advanced.ForcePointFiltering" : "Krachtpuntfiltering",
+        "Importer.Model.Advanced.ForceNoMipMaps" : "Geen MipMaps",
+        "Importer.Model.Advanced.ForceUncompressed" : "Forceer Ongecomprimeerd",
 
         "Importer.Model.Advanced.Grabbable" : "Maak grijpbaar",
         "Importer.Model.Advanced.Scalable" : "Maak Schaalbaar",
@@ -813,7 +822,7 @@
         "CameraControl.Control.RenderPreviewForEveryone" : "Render Preview Voor Iedereen",
         "CameraControl.Control.RenderPrivateUI" : "Render Privé UI",
         "CameraControl.Control.MotionBlur" : "Bewegingsonscherpte",
-
+        "CameraControl.Control.ScreenSpaceReflections" : "Screen Space Reflections",
         "CameraControl.Control.SpawnPhotoInWorld" : "Spawn Foto in De wereld",
         "CameraControl.Control.FlipPreview" : "Flip Preview",
         "CameraControl.Control.GroupDetectionRadius" : "Groepsdetectieradius: {n} m",
@@ -1013,6 +1022,8 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Klaar! Stripped: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Strip Lege Botten",
         "Inspector.SkinnedMesh.StripBonesResult" : "Klaar! Stripped: {n,plural, one {# bot} other {# botten}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Bak Niet-gestuurde BlendShapes",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Gebakken BlendShapes: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Visualizeer bot bounding boxes",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Visualizeer ongeveer samengevoegde bot bal bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Verwijder bot bounding box visuelen",
@@ -1065,8 +1076,8 @@
         "Inspector.Texture.MakeSquare" : "Maak vierkant",
         "Inspector.Texture.ToNearestPOT" : "Tot de dichtsbijzijnde macht van twee",
         "Inspector.Texture.MakeTileable" : "Tileable maken (overgangsratio):",
-
-
+        "Inspector.Texture.TileLoop" : "Tile (lus)",
+        "Inspector.Texture.TileMirror" : "Tile (spiegel)",
 
         "Inspector.Texture.InvalidFloats" : "Diagnose: ongeldige floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnose: Genereer Bitmap Metadata",
@@ -1313,7 +1324,7 @@
         "Tutorial.Tooltip.WigglerSecondary" : "Red je ziel een beetje",
 
         "Tutorial.BotDesigner.Start" : "Begin",
-
+        "Tutorial.BotDesigner.WearAvatar" : "Draag Avatar",
         "Tutorial.BotDesigner.Intro.Title" : "Neos Bot Ontwerper",
         "Tutorial.BotDesigner.Intro.Description" : "Ontwerp een aangepaste Neos Bot!",
         "Tutorial.BotDesigner.List.Models" : "Modellen",
@@ -1332,7 +1343,7 @@
         "Tutorial.AvatarTutorial.AvatarWorlds" : "Avatar Werelden",
         "Tutorial.AvatarTutorial.Intro.Title" : "Neos Avatars",
         "Tutorial.AvatarTutorial.Intro.Description" : "Leer hoe u avatars kunt vinden en gebruiken!",
-
+        "Tutorial.AvatarTutorial.Avatars.Title" : "Avatars",
         "Tutorial.AvatarTutorial.FindingAvatars.Title" : "Avatars vinden",
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Title" : "Uitrusten & Favoriet maken",
         "Tutorial.AvatarTutorial.AvatarCreation.Title" : "Avatar Creatie",
@@ -1343,11 +1354,14 @@
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Zodra je een avatar hebt, rust je deze uit door erop te klikken<br>en Equip Avatar te kiezen.<br><br>Sla uw huidig uitgeruste avatar op door op <sprite name=Download> te klikken.<br><br>U kunt uw avatar favoriet maken door deze <br>te selecteren in uw inventaris en op <sprite name=Favorite> te klikken.",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Om een aangepaste avatar te importeren en in te stellen, raadpleegt u<br>de Neos Avatar Creation-tutorial.",
 
+        "Tutorial.Intro.PublicFolders.Title" : "Publieke mappen",
+        "Tutorial.Intro.PublicFolders.Description" : "Publieke mappen is een makkelijke manier voor gebruikers in de Community om hun creaties zoals Avatars te delen en te updaten.<br><br>Om op te slaan, pak de map, en terwijl je de map vasthoud, druk je op <sprite name=Add>  in je Inventaris.<br><br>Je kunt ook opslaan met je Context Menu.<br><br>Probeer het met <b>The Starter Pack</b>. Een map ontworpen voor nieuwe gebruikers.",
 
+        "Tutorial.AvatarCreator.Intro.Title" : "Neos Avatar Creatie",
         "Tutorial.AvatarCreator.Intro.Description" : "Leer hoe u uw avatar kunt importeren en instellen!",
         "Tutorial.AvatarCreator.Options.Start" : "Begin",
         "Tutorial.AvatarCreator.ImportingAssets.Title" : "Assets Importeren",
-
+        "Tutorial.AvatarCreator.AvatarCreator.Title" : "Avatar Creator",
         "Tutorial.AvatarCreator.SettingUpMaterials.Title" : "Materialen Instellen",
         "Tutorial.AvatarCreator.DynamicBones.Title" : "Dynamisch Bones",
         "Tutorial.AvatarCreator.Saving&Favoriting.Title" : "Opslaan & Favoriet maken",
@@ -1366,15 +1380,32 @@
         "Tutorial.UserResources.SupportTitle" : "Hoe kan ik Neos ondersteunen",
 
 
-
-
-
+        "Tutorial.Intro.BadgesNeosTeam" : "Neos Team",
+        "Tutorial.Intro.BadgesModerator" : "Moderator",
+        "Tutorial.Intro.BadgesMentor" : "Mentor",
         "Tutorial.Intro.BadgesDisabilityHearing" : "Slechthorend",
         "Tutorial.Intro.BadgesDisabilityVision" : "Slechtziend",
         "Tutorial.Intro.BadgesDisabilitySpeech" : "Spraakmoeilijkheden",
-
-        "Tutorial.Intro.BadgesDescription" : "Badges zijn kleine icoontjes die aspecten van een gebruiker laten zien. Hier zijn een paar belangrijke badges om te onthouden. De handicap badges kunnen zelf worden toegewezen via de Neos bot.",
+        "Tutorial.Intro.BadgesTitle" : "Badges",
+        "Tutorial.Intro.BadgesDescription" : "Badges zijn kleine icoontjes die aspecten van een gebruiker laten zien. Hier zijn een paar belangrijke badges om te onthouden. De functiebeperking badges kunnen zelf worden toegewezen via de Neos bot. Kijk voor meer informatie op de Neos Wiki",
         "Tutorial.Intro.HelpSite" : "Help",
+
+        "Object.Mirror.Toggle" : "Lokaal Aan/Uit",
+
+        "Tutorial.Streaming.StageControl" : "Toneelbesturing",
+        "Tutorial.Streaming.StageUI" : "Stadium UI Aan/Uit",
+        "Tutorial.Streaming.StageLights" : "Toneelverlichting aan/uit",
+        "Tutorial.Streaming.StageLightController" : "Lichtregelaar aan/uit",
+        "Tutorial.Streaming.StageMicrophone" : "Microfoonstandaard Schakelaar aan/uit",
+        "Tutorial.Streaming.GreenScreenControl" : "Green Screen besturing",
+        "Tutorial.Streaming.GreenScreenToggle360" : "360<sup>o</sup> Scène aan/uit",
+        "Tutorial.Streaming.GreenScreenTracking" : "Tracking Referenties Aan/Uit",
+        "Tutorial.Streaming.GreenScreenMarker" : "Maak grijpbare marker",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Scène Wijzigen",
+        "Tutorial.Streaming.StreamRoomControl" : "Streaming Room bediening",
+
+        "Tutorial.Streaming.StreamRoomLayout" : "Set indeling",
+        "Tutorial.Streaming.StageLightShadowToggle" : "Licht Schaduwen Aan/Uit",
 
         "Exiting.SavingItems" : "Opslaan Van {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Wijzigingen opslaan...",
